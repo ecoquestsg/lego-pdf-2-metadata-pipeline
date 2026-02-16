@@ -67,13 +67,14 @@ python src/run_pipeline.py "<PDF_URL>"
 
 
 # Output Structure
+```sql
 lego-raw-pdfs/                → downloaded PDFs
 lego-extracted/               → Document AI outputs
 lego-enriched/                → metadata.json + batch reports
 lego-rawdoc-objects/
     ├── by-doc-id/            → canonical rawdoc JSON
     └── by-title/             → title alias JSON
-
+```
 
 # Metadata Schema
 Each final JSON object contains:
