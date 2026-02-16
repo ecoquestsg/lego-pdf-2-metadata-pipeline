@@ -75,11 +75,12 @@ Example:
 urls.txt
 
 ## Step 2 - Add URLs (one URL per line)
-/urls.txt:
 
+```txt
 https://example1.pdf...
 https://example2.pdf...
 https://example3.pdf...
+```
 
 ## Step 3 - Run batch mode
 ```bash
