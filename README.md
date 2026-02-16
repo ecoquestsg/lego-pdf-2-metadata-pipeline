@@ -43,8 +43,8 @@ source .venv/bin/activate
     └── by-title/             → title alias JSON
 ```
 
-## 4. Configure environment variables
-Edit .env.local according to your own project variables. Use .env.example as template to copy and paste into .env.local.
+## 4. Configure .env.local
+Create .env.local in the main repo. Use .env.example as template to copy and paste into .env.local.
 
 # How To Use (Single URL)
 
