@@ -52,7 +52,7 @@ Edit .env.local according to your own project variables. Use .env.example as tem
 ```bash
 source .venv/bin/activate
 ```
-## Step 2 — Copy PDF URL
+## Step 2 — Copy a PDF URL from a webpage
 Example:
 https://www.ema.gov.sg/content/dam/...
 
