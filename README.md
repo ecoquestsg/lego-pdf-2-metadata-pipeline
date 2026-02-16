@@ -33,7 +33,15 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-## 3. Configure environment variables
+## 3. Create the following local storage folders using the following names:
+1. lego-raw-pdfs/                → downloaded PDFs
+2. lego-extracted/               → Document AI outputs
+3. lego-enriched/                → metadata.json + batch reports
+4. lego-rawdoc-objects/
+    ├── by-doc-id/            → canonical rawdoc JSON
+    └── by-title/             → title alias JSON
+
+## 4. Configure environment variables
 Edit .env.local according to your own project variables. Use .env.example as template to copy and paste into .env.local.
 
 # How To Use (Single URL)
@@ -56,7 +64,6 @@ python src/run_pipeline.py "<PDF_URL>"
 ## Step 4 — Check output
 - Final JSON file will be stored in: lego-rawdoc-objects/by-doc-id/
 - Title alias file will also be stored in: lego-rawdoc-objects/by-title/
-These JSON files are local, already created inside this repo.
 
 
 # Output Structure
