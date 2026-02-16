@@ -1,6 +1,6 @@
 # LEGO: Convert PDF URLs → Metadata JSON Pipeline
 
-This is lightweight local pipeline that automates the conversion of PDF URLs into structured metadata JSON objects using Google's Vertex AI + Gemini LLM. 
+This pipeline that automates the conversion of PDF URLs into structured metadata JSON objects using Google's Vertex AI + Gemini LLM. 
 
 Given a webpage downloadable PDF URL , the pipeline will :
 → Download  
@@ -9,14 +9,14 @@ Given a webpage downloadable PDF URL , the pipeline will :
 → Structured JSON raw document object
 → Saves outputs locally
 
-The only initial input is "copy and paste the PDF URL".
-The final output is a portable JSON file ready to be uploaded into a vector database.
+- The only initial input is "copy and paste the PDF URL".
+- The final output is a portable JSON file ready to be uploaded into a vector database.
 
 # Requirements
 
 - Python 3.10+
 - Google Cloud Project
-- Document AI processor
+- Document AI processor (DocAI OCR)
 - Vertex AI access (Gemini enabled)
 
 # Setup
