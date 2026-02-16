@@ -59,13 +59,36 @@ https://www.ema.gov.sg/content/dam/...
 ## Step 3 — Run pipeline
 ```bash
 python src/run_pipeline.py "<PDF_URL>"
-## Example:
-## python src/run_pipeline.py "https://www.ema.gov.sg/content/dam/..."
 ```
+Example: python src/run_pipeline.py "https://www.ema.gov.sg/content/dam/..."
 
 ## Step 4 — Check output
 - Final JSON file will be stored in: lego-rawdoc-objects/by-doc-id/
 - Title alias file will also be stored in: lego-rawdoc-objects/by-title/
+
+# BETA mode - How To Use (Multiple URLs)
+
+Take note: This may prompt errors as its still in dev. So i recommend to run one URL at a time.
+
+## Step 1 - Create a txt file
+Example:
+urls.txt
+
+## Step 2 - Add URLs (one URL per line)
+/urls.txt:
+
+https://example1.pdf...
+https://example2.pdf...
+https://example3.pdf...
+
+## Step 3 - Run batch mode
+```bash
+python src/run_pipeline.py --batch urls.txt
+```
+Optional flags:
+--no-delay (Disable delay between URLs)
+--stop-on-error (Stop batch immediately on first failure)
+
 
 
 # Output Structure
