@@ -34,12 +34,14 @@ source .venv/bin/activate
 ```
 
 ## 3. Create the following local storage folders using the following names:
+```sql
 1. lego-raw-pdfs/                → downloaded PDFs
 2. lego-extracted/               → Document AI outputs
 3. lego-enriched/                → metadata.json + batch reports
 4. lego-rawdoc-objects/
     ├── by-doc-id/            → canonical rawdoc JSON
     └── by-title/             → title alias JSON
+```
 
 ## 4. Configure environment variables
 Edit .env.local according to your own project variables. Use .env.example as template to copy and paste into .env.local.
