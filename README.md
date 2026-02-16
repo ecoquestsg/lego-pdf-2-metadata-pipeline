@@ -68,7 +68,7 @@ Example: python src/run_pipeline.py "https://www.ema.gov.sg/content/dam/..."
 
 # BETA mode - How To Use (Multiple URLs)
 
-Take note: This may prompt errors as its still in dev. So i recommend to run one URL at a time.
+Take note: This may prompt errors as its still in dev. So i recommend to run Single URL runs for now.
 
 ## Step 1 - Create a txt file
 Example:
