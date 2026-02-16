@@ -1,0 +1,16 @@
+# Virtual env
+.venv/
+__pycache__/
+*.pyc
+
+# Environment files
+.env.local
+
+# Local data storage
+lego-raw-pdfs/
+lego-extracted/
+lego-enriched/
+lego-rawdoc-objects/
+
+# OS
+.DS_Store
