@@ -33,7 +33,7 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-## 3. Create the following local storage folders using the following names:
+## 3. Create the following local storage folders using these names:
 ```sql
 1. lego-raw-pdfs/                → downloaded PDFs
 2. lego-extracted/               → Document AI outputs
