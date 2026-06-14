@@ -53,14 +53,11 @@ Create .env.local in the main repo. Use .env.example as template to copy and pas
 source .venv/bin/activate
 ```
 ## Step 2 — Copy a PDF URL from a webpage
-Example:
-https://www.ema.gov.sg/content/dam/...
 
 ## Step 3 — Run pipeline
 ```bash
 python src/run_pipeline.py "<PDF_URL>"
 ```
-Example: python src/run_pipeline.py "https://www.ema.gov.sg/content/dam/..."
 
 ## Step 4 — Check output
 - Final JSON file will be stored in: lego-rawdoc-objects/by-doc-id/
